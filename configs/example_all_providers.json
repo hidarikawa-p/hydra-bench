@@ -1,0 +1,19 @@
+{
+  "_comment": "Examples of every provider type. Pick the entries you need. Any model can be used as generator, target or evaluator.",
+  "situations_dir": "data/situations",
+  "output_dir": "outputs/example",
+  "contexts": "ddc45",
+  "max_retries": 3,
+  "concurrency": 2,
+  "targets": [
+    {"label": "Claude Opus 4.7", "provider": "anthropic", "model": "claude-opus-4-7", "max_tokens": 16384},
+    {"label": "GPT-5.5", "provider": "openai", "model": "gpt-5.5", "api": "responses"},
+    {"label": "Gemini 3.1 Pro", "provider": "google", "model": "gemini-3.1-pro-preview"},
+    {"label": "DeepSeek-R1 (Bedrock)", "provider": "bedrock", "model": "us.deepseek.r1-v1:0", "region": "us-east-2"},
+    {"label": "Llama 3.1 8B (HF remote)", "provider": "hf_remote", "model": "meta-llama/Llama-3.1-8B-Instruct", "inference_provider": "auto"},
+    {"label": "Qwen3 4B (HF local)", "provider": "hf_local", "model": "Qwen/Qwen3-4B-Instruct-2507", "max_tokens": 2048,
+     "params": {"do_sample": false}, "model_kwargs": {"torch_dtype": "bfloat16"}},
+    {"label": "Local vLLM server", "provider": "openai", "api": "chat", "base_url": "http://localhost:8000/v1", "model": "my-served-model"}
+  ],
+  "evaluator": {"label": "Claude Opus 4.7", "provider": "anthropic", "model": "claude-opus-4-7"}
+}

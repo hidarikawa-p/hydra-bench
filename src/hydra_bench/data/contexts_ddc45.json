@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "computer programming",
+    "category": "000 Computer science, information and general works"
+  },
+  {
+    "keyword": "libraries",
+    "category": "000 Computer science, information and general works"
+  },
+  {
+    "keyword": "artificial intelligence",
+    "category": "000 Computer science, information and general works"
+  },
+  {
+    "keyword": "magazines",
+    "category": "000 Computer science, information and general works"
+  },
+  {
+    "keyword": "news media",
+    "category": "000 Computer science, information and general works"
+  },
+  {
+    "keyword": "philosophy",
+    "category": "100 Philosophy and psychology"
+  },
+  {
+    "keyword": "psychology",
+    "category": "100 Philosophy and psychology"
+  },
+  {
+    "keyword": "dreams",
+    "category": "100 Philosophy and psychology"
+  },
+  {
+    "keyword": "logic",
+    "category": "100 Philosophy and psychology"
+  },
+  {
+    "keyword": "ethics",
+    "category": "100 Philosophy and psychology"
+  },
+  {
+    "keyword": "the environment",
+    "category": "300 Social sciences"
+  },
+  {
+    "keyword": "politics",
+    "category": "300 Social sciences"
+  },
+  {
+    "keyword": "economics",
+    "category": "300 Social sciences"
+  },
+  {
+    "keyword": "education",
+    "category": "300 Social sciences"
+  },
+  {
+    "keyword": "customs and etiquette",
+    "category": "300 Social sciences"
+  },
+  {
+    "keyword": "language",
+    "category": "400 Language"
+  },
+  {
+    "keyword": "foreign languages",
+    "category": "400 Language"
+  },
+  {
+    "keyword": "classical languages",
+    "category": "400 Language"
+  },
+  {
+    "keyword": "dictionaries",
+    "category": "400 Language"
+  },
+  {
+    "keyword": "grammar",
+    "category": "400 Language"
+  },
+  {
+    "keyword": "natural science",
+    "category": "500 Pure science"
+  },
+  {
+    "keyword": "mathematics",
+    "category": "500 Pure science"
+  },
+  {
+    "keyword": "physics",
+    "category": "500 Pure science"
+  },
+  {
+    "keyword": "chemistry",
+    "category": "500 Pure science"
+  },
+  {
+    "keyword": "biology",
+    "category": "500 Pure science"
+  },
+  {
+    "keyword": "health and medicine",
+    "category": "600 Technology"
+  },
+  {
+    "keyword": "engineering",
+    "category": "600 Technology"
+  },
+  {
+    "keyword": "farming and agriculture",
+    "category": "600 Technology"
+  },
+  {
+    "keyword": "management",
+    "category": "600 Technology"
+  },
+  {
+    "keyword": "manufacturing",
+    "category": "600 Technology"
+  },
+  {
+    "keyword": "architecture",
+    "category": "700 Arts and recreation"
+  },
+  {
+    "keyword": "painting",
+    "category": "700 Arts and recreation"
+  },
+  {
+    "keyword": "photography",
+    "category": "700 Arts and recreation"
+  },
+  {
+    "keyword": "music",
+    "category": "700 Arts and recreation"
+  },
+  {
+    "keyword": "sports",
+    "category": "700 Arts and recreation"
+  },
+  {
+    "keyword": "classical literature",
+    "category": "800 Literature"
+  },
+  {
+    "keyword": "poetry",
+    "category": "800 Literature"
+  },
+  {
+    "keyword": "science fiction",
+    "category": "800 Literature"
+  },
+  {
+    "keyword": "novels",
+    "category": "800 Literature"
+  },
+  {
+    "keyword": "essays",
+    "category": "800 Literature"
+  },
+  {
+    "keyword": "historical documents",
+    "category": "900 History and geography"
+  },
+  {
+    "keyword": "geography and travel",
+    "category": "900 History and geography"
+  },
+  {
+    "keyword": "ancient history",
+    "category": "900 History and geography"
+  },
+  {
+    "keyword": "biographies",
+    "category": "900 History and geography"
+  },
+  {
+    "keyword": "modern history",
+    "category": "900 History and geography"
+  }
+]

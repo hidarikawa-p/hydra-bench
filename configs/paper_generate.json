@@ -1,0 +1,17 @@
+{
+  "_comment": "Situation generation as in the paper (Section 4.1): one situation per (context keyword, generator). Model IDs are those used in the experiments (December 31, 2025 - January 2, 2026); providers may later rename or retire them.",
+  "contexts": "ddc45",
+  "n_per_context": 1,
+  "clean_situations": true,
+  "output_dir": "outputs/situations",
+  "max_retries": 3,
+  "concurrency": 1,
+  "generators": [
+    {"label": "GPT-5.2 Pro", "provider": "openai", "model": "gpt-5.2-pro"},
+    {"label": "GPT-5.1", "provider": "openai", "model": "gpt-5.1"},
+    {"label": "Gemini 3 Pro", "provider": "google", "model": "gemini-3-pro-preview"},
+    {"label": "Claude Opus 4.5", "provider": "anthropic", "model": "claude-opus-4-5"},
+    {"label": "Qwen3 235B A22B 2507", "provider": "bedrock", "model": "qwen.qwen3-235b-a22b-2507-v1:0", "region": "us-east-2"},
+    {"label": "DeepSeek-R1", "provider": "bedrock", "model": "us.deepseek.r1-v1:0", "region": "us-east-2"}
+  ]
+}

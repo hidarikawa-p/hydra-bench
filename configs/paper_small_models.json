@@ -1,0 +1,13 @@
+{
+  "_comment": "Appendix D: small models. Set the Gemma 3 entry to the access route you use (hf_remote shown here; hf_local also works).",
+  "situations_dir": "data/situations",
+  "output_dir": "outputs/results",
+  "contexts": "ddc45",
+  "max_retries": 3,
+  "concurrency": 4,
+  "targets": [
+    {"label": "GPT-5.4 Nano", "provider": "openai", "model": "gpt-5.4-nano"},
+    {"label": "Gemma 3 IT 4B", "provider": "bedrock", "model": "google.gemma-3-4b-it", "region": "us-east-2"},
+  ],
+  "evaluator": {"label": "Claude Opus 4.7", "provider": "anthropic", "model": "claude-opus-4-7"}
+}

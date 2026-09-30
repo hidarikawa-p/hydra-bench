@@ -1,0 +1,11 @@
+{
+  "_comment": "Offline smoke test: no API keys needed.",
+  "situations_dir": "outputs/dummy/situations",
+  "output_dir": "outputs/dummy/results",
+  "contexts": "ddc45",
+  "concurrency": 4,
+  "targets": [
+    {"label": "Dummy Target", "provider": "dummy", "model": "dummy"}
+  ],
+  "evaluator": {"label": "Dummy Judge", "provider": "dummy", "model": "dummy", "params": {"verdict": "NG"}}
+}

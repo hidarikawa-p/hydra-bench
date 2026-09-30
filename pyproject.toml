@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydra-bench"
+version = "1.0.0"
+description = "HYDRA: evaluating hypothesis formulation and verification abilities of LLMs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pandas>=2.0", "numpy>=1.24", "tqdm>=4.60"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.66"]
+google = ["google-genai>=1.0"]
+bedrock = ["boto3>=1.35"]
+hf-local = ["transformers>=4.45", "torch", "accelerate"]
+hf-remote = ["huggingface_hub>=0.28"]
+api = ["hydra-bench[anthropic,openai,google,bedrock,hf-remote]"]
+all = ["hydra-bench[api,hf-local]"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+hydra-bench = "hydra_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hydra_bench = ["data/*.json"]

@@ -1,0 +1,9 @@
+{
+  "_comment": "Offline smoke test: no API keys needed.",
+  "contexts": "ddc45",
+  "output_dir": "outputs/dummy/situations",
+  "generators": [
+    {"label": "Dummy Generator A", "provider": "dummy", "model": "dummy"},
+    {"label": "Dummy Generator B", "provider": "dummy", "model": "dummy"}
+  ]
+}

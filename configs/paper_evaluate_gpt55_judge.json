@@ -1,0 +1,17 @@
+{
+  "_comment": "Appendix C: re-judge the answers of the main experiment with GPT-5.5 as evaluator. Run with --skip-target so that the existing answers in outputs/results/answers are reused.",
+  "situations_dir": "data/situations",
+  "output_dir": "outputs/results",
+  "contexts": "ddc45",
+  "max_retries": 3,
+  "concurrency": 4,
+  "targets": [
+    {"label": "GPT-5.5 Pro", "provider": "openai", "model": "gpt-5.5-pro"},
+    {"label": "GPT-5.5", "provider": "openai", "model": "gpt-5.5"},
+    {"label": "Gemini 3.1 Pro", "provider": "google", "model": "gemini-3.1-pro-preview"},
+    {"label": "Claude Opus 4.7", "provider": "anthropic", "model": "claude-opus-4-7"},
+    {"label": "Qwen3 235B A22B 2507", "provider": "bedrock", "model": "qwen.qwen3-235b-a22b-2507-v1:0", "region": "us-east-2"},
+    {"label": "DeepSeek-R1", "provider": "bedrock", "model": "us.deepseek.r1-v1:0", "region": "us-east-2"}
+  ],
+  "evaluator": {"label": "GPT-5.5", "provider": "openai", "model": "gpt-5.5"}
+}
